@@ -8,6 +8,7 @@ class BaseClass{
         this.body = Bodies.rectangle(x, y, width, height, options);
         this.width = width;
         this.height = height;
+        //adding a default image
         this.image = loadImage("sprites/base.png");
         World.add(world, this.body);
       }
